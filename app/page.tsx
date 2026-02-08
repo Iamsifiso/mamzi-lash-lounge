@@ -21,48 +21,48 @@ export default function Home() {
       title: 'Classic Lash Extensions',
       description: 'Individual lashes applied one-to-one for a natural, elegant look that enhances your eyes.',
       price: 'From R350',
-      image: '/images/1.jpeg',
+      image: '/images/classic-lash-extensions-closeup.jpg',
       icon: <Eye className="w-6 h-6" />
     },
     {
       title: 'Volume Lash Extensions',
       description: 'Multiple ultra-fine lashes per natural lash for dramatic volume and fullness.',
       price: 'From R450',
-      image: '/images/2.jpeg',
+      image: '/images/volume-lash-extensions-detail.jpg',
       icon: <Sparkles className="w-6 h-6" />
     },
     {
       title: 'Hybrid Lash Extensions',
       description: 'The perfect blend of classic and volume techniques for a textured, wispy look.',
       price: 'From R400',
-      image: '/images/6.jpeg',
+      image: '/images/classic-lashes-angled-view.jpg',
       icon: <Star className="w-6 h-6" />
     },
     {
       title: 'Lash Lift & Tint',
       description: 'Semi-permanent curl and color for your natural lashes. Wake up with gorgeous lashes!',
       price: 'From R250',
-      image: '/images/9.jpeg',
+      image: '/images/lash-lift-natural-result.jpg',
       icon: <Sparkles className="w-6 h-6" />
     },
   ]
 
   const gallery = [
-    '/images/1.jpeg',
-    '/images/2.jpeg',
-    '/images/4.jpeg',
-    '/images/5.jpeg',
-    '/images/6.jpeg',
-    '/images/7.jpeg',
-    '/images/9.jpeg',
-    '/images/10.jpeg',
+    '/images/classic-lash-extensions-closeup.jpg',
+    '/images/volume-lash-extensions-detail.jpg',
+    '/images/volume-lashes-front-view.jpg',
+    '/images/hybrid-lashes-side-profile.jpg',
+    '/images/classic-lashes-angled-view.jpg',
+    '/images/mega-volume-lash-set.jpg',
+    '/images/lash-lift-natural-result.jpg',
+    '/images/russian-volume-overhead.jpg',
   ]
 
   const testimonials = [
     {
       name: 'Thandi M.',
       rating: 5,
-      text: "Mamzi's attention to detail is incredible! My lashes look absolutely stunning and last for weeks. Best lash artist in Durban!"
+      text: "Mamzi's attention to detail is incredible! My lashes look absolutely stunning and last for weeks. Best lash artist in Kuruman!"
     },
     {
       name: 'Zanele K.',
@@ -72,7 +72,7 @@ export default function Home() {
     {
       name: 'Precious N.',
       rating: 5,
-      text: "The lash lift and tint changed my morning routine! I wake up looking fresh and ready. Highly recommend Mamzi Lash Lounge!"
+      text: "The lash lift and tint changed my morning routine! I wake up looking fresh and ready. Highly recommend Lash Lounge by Mamzi Mkhulu!"
     },
   ]
 
@@ -87,12 +87,12 @@ export default function Home() {
             {/* Logo */}
             <div className="flex items-center space-x-3">
               <img 
-                src="/images/logo.jpeg" 
-                alt="Mamzi Lash Lounge" 
-                className="h-12 w-12 rounded-full object-cover"
+                src="/images/mamzi-lash-lounge-logo.jpg" 
+                alt="Lash Lounge" 
+                className="h-16 w-16 rounded-full object-cover"
               />
               <span className="font-display text-2xl font-bold text-black">
-                Mamzi<span className="text-primary">Lash</span>
+                Lash<span className="text-primary">Lounge</span>
               </span>
             </div>
 
@@ -148,7 +148,7 @@ export default function Home() {
       <section id="home" className="relative h-screen flex items-center justify-center overflow-hidden">
         <div className="absolute inset-0 z-0">
           <img 
-            src="/images/3.jpeg" 
+            src="/images/client-with-branded-mirror.jpg" 
             alt="Hero" 
             className="w-full h-full object-cover"
           />
@@ -157,10 +157,10 @@ export default function Home() {
         
         <div className="relative z-10 text-center text-white px-4 animate-fade-in">
           <h1 className="font-display text-5xl md:text-7xl font-bold mb-6">
-            Lashes by <span className="text-primary">Mamzimkhulu</span>
+            Lashes by <span className="text-primary">Mamzi Mkhulu</span>
           </h1>
           <p className="text-xl md:text-2xl mb-8 text-gray-200 max-w-2xl mx-auto">
-            Enhance your natural beauty with premium lash extensions, lifts, and tints in Durban
+            Enhance your natural beauty with premium lash extensions, lifts, and tints in Kuruman
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a 
@@ -300,20 +300,20 @@ export default function Home() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
             <div>
               <img 
-                src="/images/8.jpeg" 
-                alt="Mamzimkhulu"
+                src="/images/mamzi-lash-artist-studio.jpg" 
+                alt="Mamzi Mkhulu"
                 className="rounded-2xl shadow-2xl"
               />
             </div>
             <div>
               <h2 className="font-display text-4xl md:text-5xl font-bold text-black mb-6">
-                Meet <span className="text-primary">Mamzimkhulu</span>
+                Meet <span className="text-primary">Mamzi Mkhulu</span>
               </h2>
               <p className="text-gray-700 text-lg mb-4">
                 With years of experience and a passion for beauty, I specialize in creating customized lash looks that enhance your natural features and boost your confidence.
               </p>
               <p className="text-gray-700 text-lg mb-4">
-                At Mamzi Lash Lounge, we use only premium quality products and maintain the highest standards of hygiene and safety. Each client receives personalized attention and a lash design tailored to their unique eye shape, lifestyle, and preferences.
+                At Lash Lounge, we use only premium quality products and maintain the highest standards of hygiene and safety. Each client receives personalized attention and a lash design tailored to their unique eye shape, lifestyle, and preferences.
               </p>
               <p className="text-gray-700 text-lg mb-6">
                 Whether you're looking for a natural everyday look or dramatic volume for a special occasion, I'm here to make your lash dreams come true.
@@ -379,7 +379,7 @@ export default function Home() {
                 <MapPin className="w-8 h-8" />
               </div>
               <h3 className="font-semibold text-xl mb-2">Location</h3>
-              <p className="text-gray-300">Durban, South Africa</p>
+              <p className="text-gray-300">Kuruman, Northern Cape, South Africa</p>
             </div>
           </div>
 
@@ -402,12 +402,12 @@ export default function Home() {
           <div className="flex flex-col md:flex-row justify-between items-center">
             <div className="flex items-center space-x-3 mb-4 md:mb-0">
               <img 
-                src="/images/logo.jpeg" 
+                src="/images/mamzi-lash-lounge-logo.jpg" 
                 alt="Logo" 
                 className="h-10 w-10 rounded-full object-cover"
               />
               <span className="font-display text-xl font-bold">
-                Mamzi<span className="text-primary">Lash</span>
+                Lash<span className="text-primary">Lounge</span>
               </span>
             </div>
             
@@ -426,7 +426,7 @@ export default function Home() {
             </div>
 
             <p className="text-gray-400 text-sm">
-              © 2025 Mamzi Lash Lounge. All rights reserved.
+              © 2025 Mamzi Mkhulu Lash Lounge. All rights reserved.
             </p>
           </div>
         </div>
