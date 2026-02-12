@@ -161,7 +161,7 @@ export default function Home() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center h-20">
             {/* Logo */}
-            <div className="flex items-center space-x-2 sm:space-x-3 flex-shrink-0">
+            <a href="#home" className="flex items-center space-x-2 sm:space-x-3 flex-shrink-0 cursor-pointer hover:opacity-80 transition">
               <img
                 src="/images/mamzi-lash-lounge-logo.jpg"
                 alt="Lash Lounge"
@@ -172,7 +172,7 @@ export default function Home() {
               }`}>
                 Lash<span className="text-primary">Lounge</span>
               </span>
-            </div>
+            </a>
 
             {/* Desktop Menu */}
             <div className="hidden md:flex items-center space-x-6 lg:space-x-8">
@@ -509,7 +509,7 @@ export default function Home() {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 lg:gap-12 mb-12">
             {/* About Section */}
             <div>
-              <div className="flex items-center space-x-3 mb-4">
+              <a href="#home" className="flex items-center space-x-3 mb-4 cursor-pointer hover:opacity-80 transition">
                 <img
                   src="/images/mamzi-lash-lounge-logo.jpg"
                   alt="Logo"
@@ -518,7 +518,7 @@ export default function Home() {
                 <span className="font-display text-xl font-bold">
                   Lash<span className="text-primary">Lounge</span>
                 </span>
-              </div>
+              </a>
               <p className="text-gray-400 text-sm leading-relaxed">
                 Premium lash extensions, lifts, and tints by Mamzimkhulu. Enhancing your natural beauty with expert care and quality products in Kuruman.
               </p>
